@@ -71,7 +71,7 @@ const Feed = ({
           <FeedToggle feed={feed} toggleFeed={toggleFeed} />
         </div>
       </div>
-      <div className="w-full overflow-hidden">
+      <div className="w-full overflow-scroll">
         <Slider
           movies={movies}
           custom={custom}

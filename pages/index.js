@@ -112,7 +112,7 @@ export default function Home() {
                 <div className="my-4 font-medium text-neutral-500">
                   Custom Thumbnails
                 </div>
-                <div className="w-full overflow-hidden">
+                <div className="w-full overflow-scroll">
                   <CustomSlider thumbnails={selectedMovieThumbnails} />
                 </div>
               </div>
